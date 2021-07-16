@@ -46,7 +46,7 @@ namespace Week1Day5
                 Console.WriteLine("Vuoi continuare? Scrivi 'si' per proseguire.");
             } while (Console.ReadLine().ToLower() == "si");
         }
-
+         
         private static void GeneraFileNumeriVincenti(int[] numeriVincenti)
         {
             string path = @"C:\Users\angelica.cortez\source\repos\Week1Day5\NumeriVincenti.txt";
